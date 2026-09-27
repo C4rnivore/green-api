@@ -1,0 +1,40 @@
+.app-shell {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+
+.poll-error {
+  flex: none;
+  padding: 8px 16px;
+  background: #fff4f4;
+  color: #9a3b3b;
+  font-size: 13px;
+  border-bottom: 1px solid #f0d4d4;
+}
+
+.layout {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  background: #fff;
+}
+
+@media (max-width: 760px) {
+  .sidebar {
+    width: 100%;
+  }
+
+  .chat-pane {
+    display: none;
+  }
+
+  .layout.chat-open .sidebar {
+    display: none;
+  }
+
+  .layout.chat-open .chat-pane {
+    display: flex;
+  }
+}

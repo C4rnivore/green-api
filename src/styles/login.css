@@ -1,0 +1,26 @@
+.boot {
+  height: 100%;
+  background: #f4f9fc;
+}
+
+.login-screen {
+  min-height: 100%;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  background:
+    radial-gradient(circle at 15% 10%, rgba(255, 255, 255, 0.8), transparent 32%),
+    linear-gradient(180deg, #e7f3fb 0%, #d7efe8 100%);
+}
+
+.login-card {
+  width: min(440px, 100%);
+  background: #fff;
+  border-radius: 20px;
+  padding: 28px 28px 24px;
+  box-shadow: 0 16px 40px rgba(36, 72, 102, 0.14);
+}
+
+.login-card h1 {
+  margin: 0;
+}
